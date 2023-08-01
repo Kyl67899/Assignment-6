@@ -39,7 +39,7 @@ AND movie_lang = 'English';
 -- Select movies name and languages == English, spanish, or korean
 SELECT *
 FROM movies
-WHERE (movie_lang = 'English' AND movie_lang = 'Spanish' 
+WHERE (movie_lang = 'English' OR movie_lang = 'Spanish' 
 OR movie_lang = 'Korean');
 
 -- Select first and last names of the actors last name begins w/ M 
